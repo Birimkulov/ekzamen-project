@@ -317,3 +317,10 @@ button:hover{
     text-decoration: none;
     color: white;
 }
+.grid-img{
+    position: relative;
+}
+.grid-img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
