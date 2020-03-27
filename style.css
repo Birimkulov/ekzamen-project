@@ -316,6 +316,10 @@ button:hover{
 .cost a{
     text-decoration: none;
     color: white;
+    position: relative;
+}
+.cost a:hover{
+    color: black;
 }
 .grid-img{
     position: relative;
@@ -323,4 +327,7 @@ button:hover{
 .grid-img:hover{
     transform: scale(1.2);
     transition: 0.5s;
+}
+footer{
+    padding: 0 15px;
 }
